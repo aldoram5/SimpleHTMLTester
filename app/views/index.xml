@@ -1,0 +1,22 @@
+<Alloy >
+	
+	<TabGroup backgroundColor="black" navBarHidden="true">
+		<Tab id="editorTab" title="Editor" icon="pencil_64.png" >
+			<Window title="Editor">
+				<TextArea id="textAreaFTW" width="100%" height="80%"></TextArea>
+				
+			</Window>
+		</Tab>
+		<Tab id="previewTab" title="Preview" icon="monitor_64.png" >
+			<Window title="Preview">
+				<WebView  id="WebView"  scalesPageToFit="true"  height="75%"></WebView>
+
+			</Window>
+		</Tab>
+		<Menu platform="android">
+      <MenuItem title="Save" onClick="save"/>
+      <MenuItem title="Reset to default" onClick="resetToOriginal"/>
+      <MenuItem title="Return To saved" onClick="returnToSaved"/>
+    </Menu>
+	</TabGroup>
+</Alloy>

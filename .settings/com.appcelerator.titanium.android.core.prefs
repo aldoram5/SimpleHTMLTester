@@ -1,0 +1,11 @@
+android/ATTR_MINIFY=true
+android/ATTR_PROJECT_NAME=HTMLTester
+android/abi=x86
+android/distribute_path=C\:\\Users\\Aldo Rangel\\Documents\\HtmlTester
+android/key_password=A9L3M5Z
+android/keystore_alias=crimsonrgameskey
+android/keystore_password=A9L3M5Z
+android/keystore_path=C\:\\Users\\Aldo Rangel\\Documents\\APRM.keystore
+android/recent_output=C\:\\Users\\Aldo Rangel\\Documents\\HtmlTester
+android/sdk_version=2.3.3
+eclipse.preferences.version=1
