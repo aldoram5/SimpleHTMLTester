@@ -1,8 +1,12 @@
-Welcome to your Appcelerator Titanium Mobile Project
 
-This is a blank project.  Start by editing your application's app.js to 
-make your first mobile project using Titanium.
+Simple HTML Tester is an open source Appcelerator Titanium Mobile Project, that allows you to write and test
+quickly HTML code right in your Android device. 
 
+The current test platform is only Android but as it's current state is possible that it may work for iOS and BlackBerry.
+
+
+
+Titanium's default readme legal stuff:
 
 
 ----------------------------------
