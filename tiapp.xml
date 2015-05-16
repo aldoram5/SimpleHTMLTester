@@ -2,12 +2,12 @@
 <ti:app xmlns:ti="http://ti.appcelerator.org">
     <id>com.crimsonrgames.titanium.htmltester</id>
     <name>HTMLTester</name>
-    <version>1.0</version>
+    <version>1.2</version>
     <publisher>Aldo Rangel</publisher>
     <url>http://crimsonrgames.com</url>
     <description>Simple App to test HTML </description>
-    <copyright>2014 by Aldo Rangel</copyright>
-    <icon>HtmlEditor.png</icon>
+    <copyright>2015 by Aldo Rangel</copyright>
+    <icon>appicon.png</icon>
     <persistent-wifi>false</persistent-wifi>
     <prerendered-icon>false</prerendered-icon>
     <statusbar-style>default</statusbar-style>
@@ -15,7 +15,7 @@
     <fullscreen>true</fullscreen>
     <navbar-hidden>true</navbar-hidden>
     <analytics>true</analytics>
-    <guid>1ea8e2d9-a9dc-4259-9ebc-2489d9cf5def</guid>
+    <guid>7c02e4f1-9a07-4988-9555-4227a431fa54</guid>
     <property name="ti.ui.defaultunit" type="string">system</property>
     <iphone>
         <orientations device="iphone">
@@ -28,7 +28,9 @@
             <orientation>Ti.UI.LANDSCAPE_RIGHT</orientation>
         </orientations>
     </iphone>
-    <android xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <android xmlns:android="http://schemas.android.com/apk/res/android">
+   <manifest android:versionCode="2" android:versionName="1.2"/>
+    </android>
     <mobileweb>
         <precache/>
         <splash>
@@ -39,15 +41,15 @@
     </mobileweb>
     <modules/>
     <deployment-targets>
-        <target device="blackberry">false</target>
         <target device="iphone">false</target>
         <target device="ipad">false</target>
         <target device="android">true</target>
         <target device="mobileweb">true</target>
         <target device="tizen">false</target>
     </deployment-targets>
-    <sdk-version>3.1.0.GA</sdk-version>
+    <sdk-version>4.0.0.RC4</sdk-version>
     <plugins>
         <plugin version="1.0">ti.alloy</plugin>
     </plugins>
+    <property name="appc-app-id" type="string">555669654b434d7a15eca184</property>
 </ti:app>

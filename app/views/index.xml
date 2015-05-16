@@ -3,7 +3,7 @@
 	<TabGroup backgroundColor="black" navBarHidden="true">
 		<Tab id="editorTab" title="Editor" icon="pencil_64.png" >
 			<Window title="Editor">
-				<TextArea id="textAreaFTW" width="100%" height="80%"></TextArea>
+				<TextArea id="textAreaFTW" width="100%" height="80%" color="Black"></TextArea>
 				
 			</Window>
 		</Tab>

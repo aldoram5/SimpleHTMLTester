@@ -56,9 +56,15 @@ function Controller() {
     require("alloy/controllers/BaseController").apply(this, Array.prototype.slice.call(arguments));
     this.__controllerPath = "index";
     if (arguments[0]) {
-        __processArg(arguments[0], "__parentSymbol");
-        __processArg(arguments[0], "$model");
-        __processArg(arguments[0], "__itemTemplate");
+        {
+            __processArg(arguments[0], "__parentSymbol");
+        }
+        {
+            __processArg(arguments[0], "$model");
+        }
+        {
+            __processArg(arguments[0], "__itemTemplate");
+        }
     }
     var $ = this;
     var exports = {};
@@ -73,7 +79,8 @@ function Controller() {
     $.__views.textAreaFTW = Ti.UI.createTextArea({
         id: "textAreaFTW",
         width: "100%",
-        height: "80%"
+        height: "80%",
+        color: "Black"
     });
     $.__views.__alloyId1.add($.__views.textAreaFTW);
     $.__views.editorTab = Ti.UI.createTab({
