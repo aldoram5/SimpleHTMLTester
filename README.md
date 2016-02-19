@@ -1,4 +1,9 @@
 
+# Deprecated
+##As of 02/18/2016 Google detected as insecure implementation of X509TrustManager and titanium has been heavily updated since last updated so it has become incompatible with the current code so I'll be rewritting this app natively and shutting this down, I'll keep the repo just for historical reference
+
+
+
 Simple HTML Tester is an open source Appcelerator Titanium Mobile Project, that allows you to write and test
 quickly HTML code right in your Android device. 
 
